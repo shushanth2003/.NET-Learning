@@ -63,3 +63,46 @@ Netflix uses microservices because:
 | **Team Speed** | Dependencies slow teams | Independent teams move fast |
 
 ![alt text](image.png)
+
+# Advantages and Challenges of Microservices
+
+## ✅ ADVANTAGES
+
+1. **Scalability** - Scale only what you need
+2. **Independent Deployment** - Deploy one service without affecting others
+3. **Technology Flexibility** - Use different tech for each service
+4. **Fault Isolation** - One service down ≠ entire app down
+5. **Team Autonomy** - Teams work in parallel, faster development
+6. **Easy Maintenance** - Smaller, focused codebases
+
+---
+
+## ❌ CHALLENGES
+
+1. **Complexity** - Multiple services = harder to manage
+2. **Network Issues** - API calls are slower than local calls
+3. **Data Consistency** - Each service has own database, hard to sync
+4. **Debugging** - Bug could be in any service, harder to trace
+5. **Testing** - Need multiple services running to test
+6. **Infrastructure Cost** - Needs Docker, Kubernetes, DevOps expertise
+7. **Performance Overhead** - Multiple API calls add latency
+
+---
+
+## Quick Summary
+
+| | Monolith | Microservices |
+|---|---|---|
+| **Scale** | Scale all | Scale one |
+| **Deploy** | Deploy all | Deploy one |
+| **Complexity** | Simple | Complex |
+| **Speed** | Slow (teams wait) | Fast (parallel) |
+| **Cost** | Lower | Higher |
+
+---
+
+## When to Use?
+
+✅ **Use If:** Large app, multiple teams, different scaling needs
+
+❌ **Avoid If:** Small project, small team, tight budget
