@@ -61,3 +61,5 @@ Netflix uses microservices because:
 | **Tech Stack** | One technology | Multiple technologies |
 | **Failure** | One bug crashes app | Isolated failure |
 | **Team Speed** | Dependencies slow teams | Independent teams move fast |
+
+![alt text](image.png)
