@@ -106,3 +106,26 @@ Netflix uses microservices because:
 ✅ **Use If:** Large app, multiple teams, different scaling needs
 
 ❌ **Avoid If:** Small project, small team, tight budget
+
+---
+
+## Side-by-Side Comparison
+
+| Aspect | Monolithic | Microservices |
+|--------|-----------|---------------|
+| **Structure** | Single large app | Multiple small services |
+| **Deployment** | Deploy entire app | Deploy individual service |
+| **Scaling** | Scale whole app | Scale specific service |
+| **Database** | One shared database | Each service has own DB |
+| **Technology** | One tech stack | Multiple tech stacks |
+| **Development** | Teams wait on each other | Teams work in parallel |
+| **Failure** | One bug crashes everything | One service fails, others run |
+| **Performance** | Fast (no network calls) | Slower (API calls) |
+| **Setup** | Simple | Complex |
+| **Cost** | Lower | Higher |
+
+---
+
+## Real-Time Example: Restaurant
+
+### Monolithic Approach
